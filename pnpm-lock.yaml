@@ -1,5 +1,6 @@
 dependencies:
   hexo: 5.4.0
+  hexo-deployer-git: 3.0.0
   hexo-generator-archive: 1.0.0
   hexo-generator-category: 1.0.0
   hexo-generator-index: 2.0.0
@@ -502,6 +503,19 @@ packages:
     hasBin: true
     resolution:
       integrity: sha1-dGR7xyqQuc6/BK9bxwg5qygaMF0=
+  /hexo-deployer-git/3.0.0:
+    dependencies:
+      bluebird: 3.7.2
+      chalk: 4.1.1
+      hexo-fs: 3.1.0
+      hexo-util: 2.5.0
+      moment: 2.29.1
+      nunjucks: 3.2.3
+    dev: false
+    engines:
+      node: '>=8.6.0'
+    resolution:
+      integrity: sha1-2oL3o0Rd8rITkm3I0DC6VJm2jPM=
   /hexo-front-matter/2.0.0:
     dependencies:
       js-yaml: 3.14.1
@@ -932,6 +946,9 @@ packages:
     hasBin: true
     peerDependencies:
       chokidar: ^3.3.0
+    peerDependenciesMeta:
+      chokidar:
+        optional: true
     resolution:
       integrity: sha1-GzNhUkcpDpTigmO12FXs52VkijE=
   /on-finished/2.3.0:
@@ -1310,6 +1327,7 @@ packages:
       integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 specifiers:
   hexo: ^5.0.0
+  hexo-deployer-git: ^3.0.0
   hexo-generator-archive: ^1.0.0
   hexo-generator-category: ^1.0.0
   hexo-generator-index: ^2.0.0
