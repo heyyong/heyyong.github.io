@@ -1,2 +1,21 @@
 scheme: Pisces
 language: zh-Hans
+
+vendor:
+  # gitalk_js: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js
+  # gitalk_css: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css
+
+# Gitalk
+# For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
+gitalk:
+  enable: true
+  github_id: heyyong # GitHub repo owner
+  repo: heyyong.github.io # Repository name to store issues
+  client_id: 7d63a942a85e56ad346f # GitHub Application Client ID
+  client_secret: 1dd0674670e5d0ebec82fc329be2f4d4d3f44352 # GitHub Application Client Secret
+  admin_user: heyyong # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  distraction_free_mode: true # Facebook-like distraction free mode
+  # Gitalk's display language depends on user's browser or system environment
+  # If you want everyone visiting your site to see a uniform language, you can set a force language value
+  # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
+  language: zh-CN
